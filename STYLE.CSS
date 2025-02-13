@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: #009270;
+    overflow: hidden;
+}
+
+.div1 {
+    display: flex;
+    gap: 50px;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 500px;
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .div1 {
+        gap: 20px; 
+    }
+
+    img {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .div1 {
+        flex-direction:
+        align-items: 
+        gap: 10px; 
+    }
+
+    img {
+        margin-top: 10px; 
+    }
+}
